@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>  
+<header>
+  <nav>
+    <div><a>Моє портфоліо</a>
+    </div>
+    <button class="hamburger" aria-label="Toggle navigation">^</button>
+    <ul>
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="about.html">Про мене</a></li>
+      <li><a href="skills.html">Навички</a></li>
+      <li><a href="projects.html">Проекти</a></li>
+      <li><a href="contacts.html">Контакти</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+    <section id="index">
+        <h1>Привіт! Це моє портфоліо.</h1>
+        <p>Тут ви знайдете інформацію про мене та мої роботи.</p>
+    </section>
+
+    <section id="about">
+        <h2>Про мене:</h2>
+        <p>Привіт! Мене звати Ангеліна. Я 3D-дизайнер.</p>
+        <img src="photo.jpg" alt="Моє фото">
+    </section>
+
+    <section id="skills">
+        <h2>Мої навички:</h2>
+        <ul>
+<li>3D-графіка</li>
+<li>3D-анімації</li>
+<li>3D-моделювання</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Проекти:</h2>
+        <div>
+            <ul>
+                <hr>
+                <li>Моя перша машина зроблена 3D-графікою.</li>
+                    <img src="project.1.jpeg" alt="Мій перший проект">
+            </hr>
+
+            <hr>
+                <li>Моя 3D-анімації у вигляді хлопчика з іграшкою.</li>
+                    <img src="project.2.jpeg" alt="Мій другий проект">
+        </hr>
+
+                    <hr>
+                <li>Моє перше вдале 3D-моделювання тварини.</li>
+                    <img src="project.3.jpeg" alt="Мій третій проект">
+    </hr>
+                        </ul>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакти:</h2>
+        <form>
+<label for="name">Ім'я:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Повідомлення:</label>
+<textarea id="message" name="message" rows="3" required></textarea>
+
+<button type="submit">Надіслати</button>
+</form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Портфоліо 2024</p>
+</footer>
+<script src="scripts.js"></script>
+        </body>
+</html>
