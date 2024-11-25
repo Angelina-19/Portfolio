@@ -1,0 +1,57 @@
+body {
+line-height: 1.5;
+background-color: rgb(200, 227, 247);
+color: black;
+}
+
+h1,h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+a:hover {
+color: rgb(179, 245, 204);
+}
+
+header {
+    background-color: rgb(212, 209, 206);
+    color: black;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+display: flex;
+gap: 15px;
+}
+
+.hamburger {
+display: none;
+font-size: 1.5em;
+color: brown;
+}
+
+@media (max-width: 700px) {
+.ul {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(179, 142, 213);
+    position: absolute;
+    top: 60px;
+    right: 0;
+width: 100%;
+padding: 10px 0;
+}
+.hamburger {
+    display: block;
+}
+}
